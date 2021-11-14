@@ -1,0 +1,9 @@
+.header__link-container {
+    padding-top: 46px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__link-container {
+        padding-top: 30px;
+    }
+}
