@@ -3,7 +3,7 @@
     background-size: cover;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
