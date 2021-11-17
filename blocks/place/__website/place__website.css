@@ -1,8 +1,8 @@
- .place__website {
-     grid-area: website;
- }
- @media screen and (min-width: 320px) and (max-width: 768px) {
-    .place__website {
-        order: 2;
-    }
+.place__website {
+  grid-area: website;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .place__website {
+    order: 2;
+  }
 }

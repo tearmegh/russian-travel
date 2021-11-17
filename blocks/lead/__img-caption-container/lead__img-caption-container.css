@@ -1,9 +1,9 @@
 .lead__img-caption-container {
-    max-width: 984px;
-    margin: auto;
+  max-width: 984px;
+  margin: auto;
 }
 @media screen and (min-width: 816px) and (max-width: 1023px) {
-    .lead__img-caption-container {
-        width: 768px;
-    } 
+  .lead__img-caption-container {
+    width: 768px;
+  } 
 }
