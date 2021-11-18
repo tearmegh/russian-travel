@@ -1,8 +1,13 @@
 .header__link-container {
-  padding-top: 46px;
+  margin-top: 46px;
+  margin-right: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 @media screen and (max-width: 767px) {
   .header__link-container {
-    padding-top: 30px;
+    margin-top: 30px;
+    margin-right: 16px;
   }
 }
