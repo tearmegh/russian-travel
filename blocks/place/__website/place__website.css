@@ -15,12 +15,18 @@
   .place__website#website-margin-top {
     margin-top: 46px;
   }
+  .place__website#website-margin-top2 {
+    margin-top: 46px;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .place__website {
     margin-top: 30px;
   }
   .place__website#website-margin-top {
+    margin-top: 106px;
+  }
+  .place__website#website-margin-top2 {
     margin-top: 106px;
   }
 }
