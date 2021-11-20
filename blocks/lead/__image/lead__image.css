@@ -7,21 +7,22 @@
     height: 615px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
   .lead__image {
-    width: 768px;
+    max-width: 768px;
     height: 480px;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279.98px) {
   .lead__image {
-    width: 928px;
+    max-width: 984px;
     height: 580px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .lead__image {
-    width: 100vw;
+    width: 100%;
     justify-self: center;
+    margin: auto;
   }
 }

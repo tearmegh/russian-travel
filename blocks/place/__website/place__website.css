@@ -1,8 +1,26 @@
 .place__website {
   grid-area: website;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767.98px) {
   .place__website {
     order: 2;
+    margin-left: 16px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .place__website {
+    order: 2;
+    margin-bottom: 20px;
+  }
+  .place__website#website-margin-top {
+    margin-top: 46px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .place__website {
+    margin-top: 30px;
+  }
+  .place__website#website-margin-top {
+    margin-top: 106px;
   }
 }
